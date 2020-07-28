@@ -103,27 +103,30 @@ author:
   # email            : "shoryaconsul@utexas.edu"
   links:
     - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
+      icon: "fas fa-fw fa-envelope"
       url: "mailto:shoryaconsul@utexas.edu"
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
+      #
     - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
+      icon: "fab fa-fw fa-twitter"
+      url: "https://twitter.com/shoryaconsul"
+      #
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/shoryaconsul"
+      #
     - label: "Google Scholar"
-      icon: "ai ai-google-scholar-square"
+      icon: "ai ai-google-scholar"
       url: "https://scholar.google.com/citations?user=LHjoupgAAAAJ&hl=en"
+      #
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
-
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook-square"
+      # url: "https://facebook.com/"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      # url: "https://your-website.com"
 # Site Footer
 footer:
   links:
