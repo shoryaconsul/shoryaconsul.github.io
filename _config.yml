@@ -96,8 +96,8 @@ analytics:
 author:
   name             : "Shorya Consul"
   avatar           : "assets/images/img_profile.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
+  bio              : "Doctoral student, Electrical and Computer Engineering, The University of Texas at Austin"
+  location         : "Austin, Texas"
   email            :
   links:
     - label: "Email"
