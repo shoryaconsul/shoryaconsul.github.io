@@ -95,7 +95,7 @@ analytics:
 # Site Author
 author:
   name             : "Shorya Consul"
-  avatar           : "assets/img/img_profile.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "assets/images/img_profile.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "I am an **amazing** person."
   location         : "Somewhere"
   email            :
