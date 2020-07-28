@@ -100,11 +100,11 @@ author:
   Electrical and Computer Engineering, 
   The University of Texas at Austin"
   location         : "Austin, Texas"
-  email            : "shoryaconsul@utexas.edu"
+  # email            : "shoryaconsul@utexas.edu"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
+      url: "mailto:shoryaconsul@utexas.edu"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
