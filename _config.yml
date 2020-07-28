@@ -98,7 +98,7 @@ author:
   avatar           : "assets/images/img_profile.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Doctoral student, Electrical and Computer Engineering, The University of Texas at Austin"
   location         : "Austin, Texas"
-  email            :
+  email            : "shoryaconsul@utexas.edu"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
