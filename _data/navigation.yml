@@ -6,7 +6,7 @@ main:
    url: /cv.pdf
    description: CV
  - title: "Projects"
-   url: /projects
+   url: /projects/
    description: Research 
   # - title: "Sample Collections"
   #   url: /collection-archive/
