@@ -13,7 +13,7 @@
 remote_theme: "mmistakes/minimal-mistakes" # @4.19.3"
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "dirt" # "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "contrast" # "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
@@ -107,7 +107,7 @@ author:
       url: "mailto:shoryaconsul@utexas.edu"
       #
     - label: "Twitter"
-      icon: "fab fa-twitter"
+      icon: "fab fa-fw fa-twitter"
       url: "https://twitter.com/shoryaconsul"
       #
     - label: "GitHub"
