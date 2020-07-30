@@ -105,10 +105,6 @@ author:
       icon: "fas fa-fw fa-envelope"
       url: "mailto:shoryaconsul@utexas.edu"
       #
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter"
-      url: "https://twitter.com/shoryaconsul"
-      #
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/shoryaconsul"
@@ -117,6 +113,15 @@ author:
       icon: "ai ai-google-scholar"
       url: "https://scholar.google.com/citations?user=LHjoupgAAAAJ&hl=en"
       #
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter"
+      url: "https://twitter.com/shoryaconsul"
+      #
+    - label: LinkedIn
+      icon: "fab fa-linkedin"
+      url:: "https://www.linkedin.com/in/shorya-consul-5172a5a1/"
+    #
+    #
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
