@@ -115,7 +115,7 @@ body {
   p {
     margin: 0 0 $indent-var;
     font-size: $type-size-6;
-    
+
     /* sibling indentation*/
     @if $paragraph-indent == true {
       & + p {
@@ -206,7 +206,8 @@ body {
     }
 
     .page__title {
-      font-size: $type-size-2;
+      margin-top: 2em;
+      font-size: $type-size-3;
 
       @include breakpoint($small) {
         font-size: $type-size-1;
