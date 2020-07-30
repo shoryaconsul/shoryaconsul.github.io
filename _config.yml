@@ -114,8 +114,8 @@ author:
       url: "https://scholar.google.com/citations?user=LHjoupgAAAAJ&hl=en"
       #
     - label: "LinkedIn"
-      icon: "fab fa-linkedin"
-      url:: "https://www.linkedin.com/in/shorya-consul-5172a5a1/"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/shorya-consul-5172a5a1/"
       #
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter"
