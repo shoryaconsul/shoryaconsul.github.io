@@ -113,13 +113,13 @@ author:
       icon: "ai ai-google-scholar"
       url: "https://scholar.google.com/citations?user=LHjoupgAAAAJ&hl=en"
       #
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter"
-      url: "https://twitter.com/shoryaconsul"
-      #
     - label: "LinkedIn"
       icon: "fab fa-linkedin"
       url:: "https://www.linkedin.com/in/shorya-consul-5172a5a1/"
+      #
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter"
+      url: "https://twitter.com/shoryaconsul"
     #
     #
     - label: "Instagram"
