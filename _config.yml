@@ -135,7 +135,7 @@ author:
 footer:
   links:
     - label: "GitHub"
-      icon: "fab fa-fw fa-github-alt"
+      icon: "fab fa-fw fa-github-square"
       url: "https://github.com/shoryaconsul"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter"
