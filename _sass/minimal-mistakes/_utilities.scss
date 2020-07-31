@@ -240,7 +240,11 @@ body:hover .visually-hidden button {
   }
 
   .fa-github{
-    color: #000000 // $github-color;
+    color: #000000; // $github-color;
+  }
+
+  .fa-github-inv{
+    color: #f9f9f9; // $github-color;
   }
 
   .fa-github-alt,
