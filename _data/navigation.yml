@@ -4,6 +4,7 @@ main:
  #   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
  - title: "CV"
    url: /_pages/cv.pdf
+   permalink: /cv/
    description: CV
  - title: "Projects"
    url: /projects/
