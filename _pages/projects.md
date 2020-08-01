@@ -4,4 +4,4 @@ layout: single
 permalink: /projects/
 ---
 
-Theme
+Theme color
