@@ -4,4 +4,4 @@ layout: single
 permalink: /projects/
 ---
 
-Loc font size
+Link font size
