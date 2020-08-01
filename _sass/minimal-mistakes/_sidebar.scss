@@ -172,7 +172,7 @@
 
 .author__bio {
   margin: 0;
-  font-size: $type-size-7;
+  /* font-size: $type-size-7; */
 
   @include breakpoint($large) {
     margin-top: 10px;
@@ -185,7 +185,7 @@
   display: table-cell;
   vertical-align: middle;
   font-family: $sans-serif;
-  font-size: $type-size-7;
+  /* font-size: $type-size-7; */
   z-index: 20;
   position: relative;
   cursor: pointer;
