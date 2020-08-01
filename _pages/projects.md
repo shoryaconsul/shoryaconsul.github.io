@@ -4,4 +4,4 @@ layout: single
 permalink: /projects/
 ---
 
-Icon color
+Font size
