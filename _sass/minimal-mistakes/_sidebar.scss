@@ -54,6 +54,10 @@
     font-family: $sans-serif-narrow;
   }
 
+  h3, h4 {
+    font-size: $type-size-7;
+  }
+
   p,
   li {
     font-family: $sans-serif;
@@ -172,7 +176,7 @@
 
 .author__bio {
   margin: 0;
- // font-size: $type-size-7;
+  font-size: $type-size-7;
 
   @include breakpoint($large) {
     margin-top: 10px;
