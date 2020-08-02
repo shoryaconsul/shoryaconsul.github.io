@@ -191,10 +191,6 @@
   cursor: pointer;
 
 
-  .author__urls__social-icons li{
-    font-size: $type-size-6;
-  }
-
   li:last-child {
     a {
       margin-bottom: 0;
@@ -238,6 +234,10 @@
     }
   }
 }
+
+.author__urls__social-icons li{
+    font-size: $type-size-6;
+  }
 
 .author__urls {
   display: none;
