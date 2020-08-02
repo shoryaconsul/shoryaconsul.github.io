@@ -4,4 +4,8 @@ layout: single
 permalink: /projects/
 ---
 
-Link font size
+# Differentially Private Median Forests for Regression and Classification
+
+# Reconstructing Intra-tumor Heterogenity via Convex Optimization and Branch-and-Bound Search
+
+# A MAP Framework for SupportRecovery of Sparse Signals Using Orthogonal Least Squares
