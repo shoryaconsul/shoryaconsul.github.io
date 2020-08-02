@@ -190,6 +190,11 @@
   position: relative;
   cursor: pointer;
 
+
+  .author__urls_social-icons {
+    font-size: $type-size-6;
+  }
+
   li:last-child {
     a {
       margin-bottom: 0;
