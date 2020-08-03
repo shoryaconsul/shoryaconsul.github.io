@@ -129,6 +129,10 @@ body {
     }
   }
 
+  a {
+    color: #000000
+  }
+
   a:not(.btn) {
     &:hover {
       text-decoration: underline;
