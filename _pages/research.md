@@ -5,7 +5,7 @@ permalink: /research/
 ---
 
 #### Differentially Private Median Forests for Regression and Classification
-**Shorya Consul**, Sinead Williamson  
+**Shorya Consul**, [Sinead Williamson](http://sinead.github.io/){:target="_blank"}  
 [Preprint](https://arxiv.org/pdf/2006.08795.pdf){:target="_blank"}
 
 #### Reconstructing Intra-tumor Heterogenity via Convex Optimization and Branch-and-Bound Search
