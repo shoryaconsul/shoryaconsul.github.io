@@ -11,9 +11,9 @@ Shorya Consul, Sinead Williamson
 #### Reconstructing Intra-tumor Heterogenity via Convex Optimization and Branch-and-Bound Search
 Shorya Consul, Haris Vikalo  
 ACM International Confrence on Bioinformatics, Computational Biology and Health Informatics (ACM-BCB), 2019  
-[Paper](https://dl.acm.org/doi/abs/10.1145/3307339.3342178){:target="_blank"}
+[_Paper_](https://dl.acm.org/doi/abs/10.1145/3307339.3342178){:target="_blank"}
 
 #### A MAP Framework for Support Recovery of Sparse Signals Using Orthogonal Least Squares
 Shorya Consul, Abolfazl Hashemi, Haris Vikalo  
 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), 2018  
-[Paper](https://ieeexplore.ieee.org/abstract/document/8683151/){:target="_blank"}
+[_Paper_](https://ieeexplore.ieee.org/abstract/document/8683151/){:target="_blank"}
