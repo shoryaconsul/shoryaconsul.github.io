@@ -7,6 +7,6 @@ permalink: /education/
 * **The University of Texas at Austin**  
 PhD, Electrical and Computer Engineering (2017 - Present)
 
-* **Inidan Institute of Technology Bombay**  
-B.Tech, Electrical and Computer Engineering (2013 - 2017)
+* **Indian Institute of Technology Bombay**  
+B.Tech, Electrical and Computer Engineering (2013 - 2017)  
 Awarded **Silver medal** for best academic performance among graduating students in department
