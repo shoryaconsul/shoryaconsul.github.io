@@ -15,9 +15,11 @@ Decision forests are popular for both regression and classification but require 
 ACM Conference on Bioinformatics, Computational Biology and Health Informatics (ACM-BCB), 2019  
 [Paper](https://dl.acm.org/doi/abs/10.1145/3307339.3342178){:target="_blank"} | [Code](https://github.com/shoryaconsul/AMTHet){:target="_blank"}  
 
-Reconstructing tumor populations from heterogeneous samples from high-throughput sequencing data is highly valuable area of study due to its potential to inform targeted studies and treatments. This, however, is a challenging task due to the complex mutations present and read lenghts being too short to span regions exhibitng structural variations. We present a novel algorithmic framework, _AMTHet_, to infer the tumor clonal populations and their frequencies from a heterogeneous sample based on copy number variations.
+Reconstructing tumor populations from heterogeneous samples from high-throughput sequencing data is highly valuable area of study due to its potential to inform targeted studies and treatments. This, however, is a challenging task due to the complex mutations present and read lenghts being too short to span regions exhibitng structural variations. We present a novel algorithmic framework, _AMTHet_, to infer the tumor clonal populations and their frequencies from a heterogeneous sample based on copy number variations.  
 
 ##### A MAP Framework for Support Recovery of Sparse Signals Using Orthogonal Least Squares
 **Shorya Consul**, [Abolfazl Hashemi](https://abolfazlh.github.io/){:target="_blank"}, [Haris Vikalo](http://users.ece.utexas.edu/~hvikalo/){:target="_blank"}  
 International Conference on Acoustics, Speech and Signal Processing (ICASSP), 2018  
-[Paper](https://ieeexplore.ieee.org/abstract/document/8683151/){:target="_blank"}
+[Paper](https://ieeexplore.ieee.org/abstract/document/8683151/){:target="_blank"}  
+
+We propose _MAP-AOLS_, an algorithm that leverages the statistical information about the sensing matrix and signal to greedily reconstruct sparse binary signals from their compressed measurements. This stands in contrast to conventional greedy algorithms, such as OLS and OMP, that perform reconstruction without utilizing any knowledge about the statistical distributions.
