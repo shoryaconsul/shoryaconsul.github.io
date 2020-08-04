@@ -33,9 +33,13 @@ $(function() {
 
     // There is not enought space
     if (requiredSpace > availableSpace) {
-      $vlinks.children().last().prependTo($hlinks);
-      numOfVisibleItems -= 1;
-      check();
+      while(numOfVisibleItems>0){
+        $vlinks.children().last().prependTo($hlinks);
+        numOfVisibleItems -= 1;      
+      }
+      // $vlinks.children().last().prependTo($hlinks);
+      // numOfVisibleItems -= 1;
+      // check();
       // There is more than enough space
     } else if (availableSpace > breakWidths[numOfVisibleItems]) {
       $hlinks.children().first().appendTo($vlinks);
