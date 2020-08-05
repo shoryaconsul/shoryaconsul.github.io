@@ -44,6 +44,7 @@ $(function() {
         $hlinks.children().first().appendTo($vlinks);
         numOfVisibleItems += 1;
       }
+      alert('Visible menu')
     }
     // Update the button accordingly
     $btn.attr("count", numOfItems - numOfVisibleItems);
