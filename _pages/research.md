@@ -7,7 +7,6 @@ permalink: /research/
 ##### Differentially Private Median Forests for Regression and Classification
 **Shorya Consul**, [Sinead Williamson](http://sinead.github.io/){:target="_blank"}<br>
 [Preprint](https://arxiv.org/pdf/2006.08795.pdf){:target="_blank"}
-<!-- -->  
 <p style='text-align: justify;' id="dpmf" style="display:none;">
 Decision forests are popular for both regression and classification but require a large number of queries for training. This makes attaining differential privacy especially challenging. We proposed a novel scheme, _DiPriMe forests_ that ensures differential privacy while maintaining high utility.</p>
 </div>  
