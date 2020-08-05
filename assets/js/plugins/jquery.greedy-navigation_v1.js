@@ -33,16 +33,14 @@ $(function() {
 
     // There is not enought space
     if (requiredSpace > availableSpace) {
-      while (numOfVisibleItems > 0){
-        $vlinks.children().last().prependTo($hlinks);
-        numOfVisibleItems -= 1;
-      }
+      $vlinks.children().last().prependTo($hlinks);
+      numOfVisibleItems -= 1;
+      check();
       // There is more than enough space
     } else if (availableSpace > breakWidths[numOfVisibleItems]) {
-      while($hlinks.children().length>0){
-        $hlinks.children().first().appendTo($vlinks);
-        numOfVisibleItems += 1;
-      }
+      $hlinks.children().first().appendTo($vlinks);
+      numOfVisibleItems += 1;
+      check();
     }
     // Update the button accordingly
     $btn.attr("count", numOfItems - numOfVisibleItems);
