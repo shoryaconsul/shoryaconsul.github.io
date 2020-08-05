@@ -37,6 +37,7 @@ $(function() {
         $vlinks.children().last().prependTo($hlinks);
         numOfVisibleItems -= 1;
       }
+      alert('Hidden menu')
       // There is more than enough space
     } else if (availableSpace > breakWidths[numOfVisibleItems]) {
       while($hlinks.children().length>0){
