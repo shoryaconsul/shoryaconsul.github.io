@@ -10,7 +10,7 @@
   @include clearfix();
   // @include breakpoint(max-width $large) {
   //   /* fix z-index order of follow links */
-  //   position: absolute;
+  //   position: relative;
   //   z-index: 10;
   //   -webkit-transform: translate3d(0, 0, 0);
   //   transform: translate3d(0, 0, 0);
@@ -181,7 +181,7 @@
 }
 
 .author__urls-wrapper {
-  position: absolute;
+  position: relative;
   display: table-cell;
   vertical-align: middle;
   font-family: $sans-serif;

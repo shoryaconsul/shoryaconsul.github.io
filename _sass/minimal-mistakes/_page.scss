@@ -90,7 +90,7 @@ body {
 
 	h1, h2, h3, h4, h5, h6 {
 		.header-link {
-			position: absolute;
+			position: relative;
 			left: 0.5em;
 			opacity: 0;
 			font-size: 0.8em;
@@ -120,7 +120,6 @@ body {
   p {
     margin: 0 0 $indent-var;
     font-size: $type-size-8;
-    position: absolute;
 
     /* sibling indentation*/
     @if $paragraph-indent == true {
