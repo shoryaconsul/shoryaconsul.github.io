@@ -5,11 +5,11 @@ permalink: /education/
 ---
 <br>
 
-**The University of Texas at Austin**
-PhD, Electrical and Computer Engineering
+**The University of Texas at Austin**  
+PhD, Electrical and Computer Engineering  
 **Advisor:** [Prof. Haris Vikalo](http://users.ece.utexas.edu/~hvikalo/){:target="_blank"}
 
-**The University of Texas at Austin**
+**The University of Texas at Austin**  
 MS, Electrical and Computer Engineering  
 **Advisor:** [Prof. Haris Vikalo](http://users.ece.utexas.edu/~hvikalo/){:target="_blank"}  
 
