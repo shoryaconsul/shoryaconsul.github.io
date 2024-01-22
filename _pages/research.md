@@ -17,8 +17,7 @@ Reconstructing haplotypes of an organism from a set of sequencing reads is a com
 <div markdown="1" onmouseover="document.getElementById('xvir').style.display='block';" onmouseout="document.getElementById('xvir').style.display='none';">
 ##### XVir: A Transformer-Based Architecture for Identifying Viral Reads from Cancer Samples
 **Shorya Consul**, John Robertson, [Haris Vikalo](http://users.ece.utexas.edu/~hvikalo/){:target="_blank"}<br>
-Bioinformatics Advances, 2023<br>
-[Paper](https://www.biorxiv.org/content/10.1101/2023.08.28.555020v1.abstract){:target="_blank"}
+[Preprint](https://www.biorxiv.org/content/10.1101/2023.08.28.555020v1.abstract){:target="_blank"}
 <!-- -->
 <p markdown="1" style='text-align: justify;' id="xvir" style="display:none;">
 Many cancers can be linked to viral infections. With the advent of modern sequencing technolgoies, we now have access to massive amounts of tumor data, which in turn have allowed studies of the associations between viruses and cancers. However, the high diversity of oncoviral families makes detecting viral DNA challenging, thereby complicating the study of these associations. To that end, we propose **XVir**, a transformer-based deep learning architecture to reliably identify viral DNA present in human tumors. Results on semi-experimental data demonstrate that XVir is capable of achieving high detection accuracy, generally outperforming state-of-the-art competing methods while being more compact and less computationally demanding.
