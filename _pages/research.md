@@ -3,13 +3,24 @@ title: Research
 layout: single
 permalink: /research/
 ---
+<div markdown="1" onmouseover="document.getElementById('xhap').style.display='block';" onmouseout="document.getElementById('xhap').style.display='none';">
+##### XHap: haplotype assembly using long-distance read correlations learned by transformers
+**Shorya Consul**, [Ziqi Ke](https://scholar.google.com/citations?user=E2OUcxIAAAAJ&hl=en){:target="_blank"}, [Haris Vikalo](http://users.ece.utexas.edu/~hvikalo/){:target="_blank"}<br>
+Bioinformatics Advances, 2023<br>
+[Paper](https://academic.oup.com/bioinformaticsadvances/article/3/1/vbad169/7444321){:target="_blank"}
+<!-- -->
+<p markdown="1" style='text-align: justify;' id="xhap" style="display:none;">
+Reconstructing haplotypes of an organism from a set of sequencing reads is a computationally challenging problem. Limitations on read length limitations and sequencing errors render this problem difficult even for diploids; the complexity of the problem grows with the ploidy of the organism. We present XHap, a novel method for haplotype assembly that aims to learn correlations between pairs of sequencing reads, including those that do not overlap but may be separated by large genomic distances, and utilize the learned correlations to assemble the haplotypes. XHap accompishes this by utilizing transformers, a powerful deep-learning technique that relies on the attention mechanism, to discover dependencies between non-overlapping reads. Experiments on semi-experimental and real data demonstrate that the proposed method significantly outperforms state-of-the-art techniques in diploid and polyploid haplotype assembly tasks on both short and long sequencing reads, resulting in as much as 300-fold increase in the size of the assembled haplotypes.
+</p>
+</div>  
+<!-- --> 
 <div markdown="1" onmouseover="document.getElementById('dpmf').style.display='block';" onmouseout="document.getElementById('dpmf').style.display='none';">
 ##### Differentially Private Median Forests for Regression and Classification
 **Shorya Consul**, [Sinead Williamson](http://sinead.github.io/){:target="_blank"}<br>
 [Preprint](https://arxiv.org/pdf/2006.08795.pdf){:target="_blank"}
 <!-- -->
 <p markdown="1" style='text-align: justify;' id="dpmf" style="display:none;">
-Decision forests are popular for both regression and classification but require a large number of queries for training. This makes attaining differential privacy especially challenging. We proposed a novel scheme, **DiPriMe forests**, that ensures differential privacy while maintaining high utility.</p>
+Decision forests are popular for both regression and classification but require a large number of queries for training. This makes attaining differential privacy especially challenging. We proposed a novel scheme, **DiPriMe forests**, that ensures differential privacy while maintaining high utility, i.e., high performance while guaranteeing differential privacy.</p>
 </div>  
 <!-- -->  
 <div markdown="1" onmouseover="document.getElementById('ith-bb').style.display='block';" onmouseout="document.getElementById('ith-bb').style.display='none';">
