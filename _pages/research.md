@@ -4,13 +4,24 @@ layout: single
 permalink: /research/
 ---
 <div markdown="1" onmouseover="document.getElementById('xhap').style.display='block';" onmouseout="document.getElementById('xhap').style.display='none';">
-##### XHap: haplotype assembly using long-distance read correlations learned by transformers
+##### XHap: Haplotype Assembly using Long-distance Read Correlations learned by Transformers
 **Shorya Consul**, [Ziqi Ke](https://scholar.google.com/citations?user=E2OUcxIAAAAJ&hl=en){:target="_blank"}, [Haris Vikalo](http://users.ece.utexas.edu/~hvikalo/){:target="_blank"}<br>
 Bioinformatics Advances, 2023<br>
 [Paper](https://academic.oup.com/bioinformaticsadvances/article/3/1/vbad169/7444321){:target="_blank"}
 <!-- -->
 <p markdown="1" style='text-align: justify;' id="xhap" style="display:none;">
-Reconstructing haplotypes of an organism from a set of sequencing reads is a computationally challenging problem. Limitations on read length limitations and sequencing errors render this problem difficult even for diploids; the complexity of the problem grows with the ploidy of the organism. We present XHap, a novel method for haplotype assembly that aims to learn correlations between pairs of sequencing reads, including those that do not overlap but may be separated by large genomic distances, and utilize the learned correlations to assemble the haplotypes. XHap accompishes this by utilizing transformers, a powerful deep-learning technique that relies on the attention mechanism, to discover dependencies between non-overlapping reads. Experiments on semi-experimental and real data demonstrate that the proposed method significantly outperforms state-of-the-art techniques in diploid and polyploid haplotype assembly tasks on both short and long sequencing reads, resulting in as much as 300-fold increase in the size of the assembled haplotypes.
+Reconstructing haplotypes of an organism from a set of sequencing reads is a computationally challenging problem. Limitations on read length limitations and sequencing errors render this problem difficult even for diploids; the complexity of the problem grows with the ploidy of the organism. We present **XHap**, a novel method for haplotype assembly that aims to learn correlations between pairs of sequencing reads, including those that do not overlap but may be separated by large genomic distances, and utilize the learned correlations to assemble the haplotypes. XHap accompishes this by utilizing transformers, a powerful deep-learning technique that relies on the attention mechanism, to discover dependencies between non-overlapping reads. Experiments on semi-experimental and real data demonstrate that the proposed method significantly outperforms state-of-the-art techniques in diploid and polyploid haplotype assembly tasks on both short and long sequencing reads, resulting in as much as a 300-fold increase in the size of the assembled haplotypes.
+</p>
+</div>  
+<!-- --> 
+<div markdown="1" onmouseover="document.getElementById('xvir').style.display='block';" onmouseout="document.getElementById('xvir').style.display='none';">
+##### XVir: A Transformer-Based Architecture for Identifying Viral Reads from Cancer Samples
+**Shorya Consul**, John Robertson, [Haris Vikalo](http://users.ece.utexas.edu/~hvikalo/){:target="_blank"}<br>
+Bioinformatics Advances, 2023<br>
+[Paper](https://www.biorxiv.org/content/10.1101/2023.08.28.555020v1.abstract){:target="_blank"}
+<!-- -->
+<p markdown="1" style='text-align: justify;' id="xvir" style="display:none;">
+Many cancers can be linked to viral infections. With the advent of modern sequencing technolgoies, we now have access to massive amounts of tumor data, which in turn have allowed studies of the associations between viruses and cancers. However, the high diversity of oncoviral families makes detecting viral DNA challenging, thereby complicating the study of these associations. To that end, we propose **XVir**, a transformer-based deep learning architecture to reliably identify viral DNA present in human tumors. Results on semi-experimental data demonstrate that XVir is capable of achieving high detection accuracy, generally outperforming state-of-the-art competing methods while being more compact and less computationally demanding.
 </p>
 </div>  
 <!-- --> 
