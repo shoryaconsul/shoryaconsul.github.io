@@ -29,7 +29,7 @@ Many cancers can be linked to viral infections. With the advent of modern sequen
 [Hasan Burhan Beytur](https://sites.google.com/view/hasanburhanbeytur){:target="_blank"}, **Shorya Consul**, [Gustavo de Vecianan](https://users.ece.utexas.edu/~gustavo/){:target="_blank"}, [Haris Vikalo](http://users.ece.utexas.edu/~hvikalo/){:target="_blank"}<br>
 [Preprint](https://www.biorxiv.org/content/10.1101/2023.08.28.555020v1.abstract){:target="_blank"}
 <!-- -->
-<p markdown="1" style='text-align: justify;' id="xvir" style="display:none;">
+<p markdown="1" style='text-align: justify;' id="rf-inf" style="display:none;">
 We consider RF-based network inference based on channel usage. The proposed approaches rely on distributed spectrum sensing and are agnostic to the content and communication protocols. We consider inference based solely on observing nodes' channel usage and show it is equivalent to a Boolean matrix decomposition problem, which in general does not have a unique solution and is an NP-hard problem. We provide necessary and sufficient conditions for the Boolean matrix decomposition problem has a unique solution, i.e., for the network to be recoverable. We also propose a low-complexity network recovery algorithm that finds the unique solution under the recoverability conditions. In addition to that we provide an analysis of the required observation time to collect necessary channel usage data needed for the network recovery algorithm.
 </p>
 </div>  
