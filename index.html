@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shorya Consul — Computational Scientist</title>
+<meta name="description" content="Shorya Consul is a computational scientist at Quantum-Si designing statistical, Bayesian, and machine learning algorithms for genomics and proteomics.">
+
+<link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16x16.png">
+<link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png">
+<link rel="manifest" href="assets/images/site.webmanifest">
+
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a class="nav-name" href="#top">SHORYA CONSUL</a>
+    <div class="nav-links">
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#research">Research</a>
+      <a href="#skills">Skills</a>
+      <a href="#education">Education</a>
+      <a href="#contact">Contact</a>
+      <a class="btn" href="assets/resume/Shorya_Consul_Resume.pdf" target="_blank" rel="noopener">Resume</a>
+    </div>
+  </div>
+</nav>
+
+<section id="top">
+  <h1>Shorya Consul</h1>
+  <p class="subtitle">Senior Computational Scientist, Quantum-Si</p>
+  <p class="tagline">I design algorithms — statistical, Bayesian, and machine learning — that turn raw sequencing data into biological insight, from research prototypes to production pipelines processing 500GB+ datasets.</p>
+  <div class="hero-links">
+    <a href="mailto:shoryaconsul@utexas.edu">Email</a>
+    <a href="https://github.com/shoryaconsul" target="_blank" rel="noopener">GitHub</a>
+    <a href="https://www.linkedin.com/in/shorya-consul-5172a5a1/" target="_blank" rel="noopener">LinkedIn</a>
+    <a href="https://scholar.google.com/citations?user=LHjoupgAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a>
+  </div>
+</section>
+
+<div class="track" aria-hidden="true">
+  <span style="height:6px"></span><span style="height:14px"></span><span style="height:9px"></span><span style="height:17px"></span><span style="height:5px"></span><span style="height:12px"></span><span style="height:8px"></span><span style="height:16px"></span><span style="height:6px"></span><span style="height:10px"></span><span style="height:14px"></span><span style="height:4px"></span><span style="height:13px"></span><span style="height:7px"></span><span style="height:15px"></span><span style="height:9px"></span><span style="height:11px"></span><span style="height:6px"></span>
+</div>
+
+<section id="about">
+  <p class="eyebrow">About</p>
+  <p>I'm a computational scientist on the Data Science &amp; Algorithms team at Quantum-Si, where I design the statistical, Bayesian, and machine learning algorithms that power our proteomics sequencing platform.</p>
+  <p>Before Quantum-Si, I completed my PhD in Electrical and Computer Engineering at UT Austin under <a href="http://users.ece.utexas.edu/~hvikalo/" target="_blank" rel="noopener">Prof. Haris Vikalo</a>, where my research focused on applying machine learning — including deep learning and, more recently, genomic foundation models — to genomic and oncoviral sequencing data. I'm also keenly interested in ethical machine learning, particularly privacy.</p>
+  <p class="muted">Outside of work, I'm usually reading a good fantasy or mystery novel, playing tennis or ultimate frisbee, or nerding out over trivia and board games.</p>
+</section>
+
+<section id="experience">
+  <p class="eyebrow">Experience</p>
+
+  <div class="job">
+    <div class="job-head">
+      <span class="job-title">Quantum-Si</span>
+      <span class="job-date">Dec 2024 — Present</span>
+    </div>
+    <div class="job-sub">Data Science &amp; Algorithms Team · San Diego, CA</div>
+    <ul class="bullets">
+      <li>Redesigned Quantum-Si's <strong>Bayesian network-based</strong> protein-inference algorithm for nanowell sequencing data via statistical filtering, delivering a <strong>5× speedup</strong>, <strong>&gt;10% accuracy gain</strong>, and <strong>90% recall</strong> with calibrated confidence tiers extensible to higher-multiplexity samples.</li>
+      <li>Major contributor to migration of core workflows to <strong>Rust</strong> for effective parallelization, achieving a further <strong>10× runtime reduction</strong> and scaling processing to <strong>40× more data</strong> per analysis (raw file sizes &gt;500GB).</li>
+      <li>Designed a new, more interpretable protein-inference workflow matching prior model performance while scaling to 40× more data.</li>
+      <li>Built an interactive motif dashboard for visualizing sequencing data and results by recurring motifs, adopted directly by R&amp;D scientists and customers.</li>
+      <li>Leading early-stage development of a neural network model — incorporating structural priors — to predict amino acid/binder kinetics underlying downstream algorithms, tackling the data-scarce regime inherent to Quantum-Si's novel instrumentation.</li>
+      <li>Regularly brief C-suite leadership on algorithm performance and technical roadmap decisions across multiple cross-functional initiatives.</li>
+    </ul>
+  </div>
+
+  <div class="job">
+    <div class="job-head">
+      <span class="job-title">CognitiveScale</span>
+      <span class="job-date">Jun — Aug 2019</span>
+    </div>
+    <div class="job-sub">Machine Learning Team · Austin, TX</div>
+    <ul class="bullets">
+      <li>Designed the regression-model audit framework within Cortex Certifai, a model-trust toolkit scoring black-box models on four metrics — robustness, fairness, explainability, and performance.</li>
+      <li>Won first place in a company-wide Shark Tank competition for responsible-AI product pitches.</li>
+    </ul>
+  </div>
+</section>
+
+<section id="research">
+  <p class="eyebrow">Research &amp; Publications</p>
+  <p class="muted research-note">Click a title to expand its abstract.</p>
+
+  <details class="pub">
+    <summary>
+      <div class="pub-heading">
+        <div class="pub-title">NextVir: Enabling classification of tumor-causing viruses with genomic foundation models<span class="pub-badge">2025</span></div>
+        <div class="pub-meta">Robertson, J., Consul, S., Vikalo, H. — PLOS Computational Biology</div>
+      </div>
+      <span class="pub-toggle"></span>
+    </summary>
+    <div class="pub-body">
+      <p class="pub-abstract">A genomic foundation model framework — fine-tuning DNABERT-S, Nucleotide Transformer, and HyenaDNA via LoRA — and the first method to jointly identify and classify oncoviral sequencing reads within a single model. Achieves approximately 95% accuracy across seven oncoviral families and human background, outperforming three state-of-the-art baselines on realistic, non-uniform-coverage sequencing data.</p>
+      <div class="pub-links">
+        <a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1013360" target="_blank" rel="noopener">Paper</a>
+      </div>
+    </div>
+  </details>
+
+  <details class="pub">
+    <summary>
+      <div class="pub-heading">
+        <div class="pub-title">XVir: A Transformer-Based Architecture for Identifying Viral Reads from Cancer Samples<span class="pub-badge">2025</span></div>
+        <div class="pub-meta">Consul, S., Robertson, J., Vikalo, H. — Journal of Computational Biology</div>
+      </div>
+      <span class="pub-toggle"></span>
+    </summary>
+    <div class="pub-body">
+      <p class="pub-abstract">Many cancers can be linked to viral infections. With the advent of modern sequencing technologies, we now have access to massive amounts of tumor data, which in turn have allowed studies of the associations between viruses and cancers. However, the high diversity of oncoviral families makes detecting viral DNA challenging, thereby complicating the study of these associations. We propose XVir, a transformer-based deep learning architecture to reliably identify viral DNA present in human tumors, achieving high detection accuracy while being more compact and less computationally demanding than competing methods.</p>
+      <div class="pub-links">
+        <a href="https://www.liebertpub.com/doi/10.1089/cmb.2025.0075" target="_blank" rel="noopener">Paper</a>
+      </div>
+    </div>
+  </details>
+
+  <details class="pub">
+    <summary>
+      <div class="pub-heading">
+        <div class="pub-title">XHap: Haplotype Assembly using Long-distance Read Correlations learned by Transformers<span class="pub-badge">2023</span></div>
+        <div class="pub-meta">Consul, S., Ke, Z., Vikalo, H. — Bioinformatics Advances</div>
+      </div>
+      <span class="pub-toggle"></span>
+    </summary>
+    <div class="pub-body">
+      <p class="pub-abstract">Reconstructing haplotypes of an organism from a set of sequencing reads is a computationally challenging (NP-hard) problem. At the core of haplotype assembly is the task of clustering reads according to their origin — grouping together reads that sample the same haplotype. Read length limitations and sequencing errors render this problem difficult even for diploids; complexity grows with ploidy. XHap learns correlations between pairs of sequencing reads, including those separated by large genomic distances, by leveraging transformers, and uses these learned correlations to assemble haplotypes. Experiments on semi-experimental and real data show XHap significantly outperforms state-of-the-art techniques in diploid and polyploid haplotype assembly on both short and long sequencing reads.</p>
+      <div class="pub-links">
+        <a href="https://academic.oup.com/bioinformaticsadvances/article/3/1/vbad169/7444321" target="_blank" rel="noopener">Paper</a>
+        <a href="https://github.com/shoryaconsul/XHap" target="_blank" rel="noopener">Code</a>
+      </div>
+    </div>
+  </details>
+
+  <details class="pub">
+    <summary>
+      <div class="pub-heading">
+        <div class="pub-title">RF-based Network Inference: Theoretical Foundations<span class="pub-badge">2021</span></div>
+        <div class="pub-meta">Beytur, H.B., Consul, S., de Veciana, G., Vikalo, H. — IEEE MILCOM</div>
+      </div>
+      <span class="pub-toggle"></span>
+    </summary>
+    <div class="pub-body">
+      <p class="pub-abstract">We consider RF-based network inference based on channel usage. The proposed approaches rely on distributed spectrum sensing and are agnostic to content and communication protocols. Inference based solely on observing nodes' channel usage is shown to be equivalent to a Boolean matrix decomposition problem, which in general does not have a unique solution and is NP-hard. We provide necessary and sufficient conditions for the decomposition to have a unique solution — i.e., for the network to be recoverable — along with a low-complexity recovery algorithm and an analysis of the observation time required.</p>
+      <div class="pub-links">
+        <a href="https://ieeexplore.ieee.org/abstract/document/9652965" target="_blank" rel="noopener">Paper</a>
+      </div>
+    </div>
+  </details>
+
+  <details class="pub">
+    <summary>
+      <div class="pub-heading">
+        <div class="pub-title">Balance is Key: Private Median Splits Yield High-Utility Random Trees<span class="pub-badge">2020</span></div>
+        <div class="pub-meta">Consul, S., Williamson, S. — arXiv preprint</div>
+      </div>
+      <span class="pub-toggle"></span>
+    </summary>
+    <div class="pub-body">
+      <p class="pub-abstract">Decision forests are popular for both regression and classification but require a large number of queries for training, making differential privacy especially challenging to attain. We propose DiPriMe forests, a novel scheme that ensures differential privacy while maintaining high utility.</p>
+      <div class="pub-links">
+        <a href="https://arxiv.org/pdf/2006.08795.pdf" target="_blank" rel="noopener">Preprint</a>
+      </div>
+    </div>
+  </details>
+
+  <details class="pub">
+    <summary>
+      <div class="pub-heading">
+        <div class="pub-title">Certifai: A Toolkit for Building Trust in AI Systems<span class="pub-badge">2020</span></div>
+        <div class="pub-meta">Henderson, J., et al. (contributor) — IJCAI-20 Demonstrations Track</div>
+      </div>
+      <span class="pub-toggle"></span>
+    </summary>
+    <div class="pub-body">
+      <p class="pub-abstract">Cortex Certifai audits black-box classification and regression models on tabular data across four dimensions — robustness, fairness, explainability, and performance — without requiring access to a model's internals. I designed the regression-model audit framework within Certifai as part of CognitiveScale's Machine Learning team.</p>
+      <div class="pub-links">
+        <a href="https://www.ijcai.org/proceedings/2020/759" target="_blank" rel="noopener">Paper</a>
+      </div>
+    </div>
+  </details>
+
+  <details class="pub">
+    <summary>
+      <div class="pub-heading">
+        <div class="pub-title">Reconstructing Intra-tumor Heterogeneity via Convex Optimization and Branch-and-Bound Search<span class="pub-badge">2019</span></div>
+        <div class="pub-meta">Consul, S., Vikalo, H. — ACM-BCB</div>
+      </div>
+      <span class="pub-toggle"></span>
+    </summary>
+    <div class="pub-body">
+      <p class="pub-abstract">Reconstructing tumor populations from heterogeneous samples using high-throughput sequencing data is a highly valuable area of study due to its potential to inform targeted studies and treatments. This is challenging due to complex mutations and read lengths too short to span regions exhibiting structural variations. We present AMTHet, a novel algorithmic framework to infer tumor clonal populations and their frequencies from a heterogeneous sample based on copy number variations.</p>
+      <div class="pub-links">
+        <a href="https://dl.acm.org/doi/abs/10.1145/3307339.3342178" target="_blank" rel="noopener">Paper</a>
+        <a href="https://github.com/shoryaconsul/AMTHet" target="_blank" rel="noopener">Code</a>
+      </div>
+    </div>
+  </details>
+
+  <details class="pub">
+    <summary>
+      <div class="pub-heading">
+        <div class="pub-title">A MAP Framework for Support Recovery of Sparse Signals Using Orthogonal Least Squares<span class="pub-badge">2018</span></div>
+        <div class="pub-meta">Consul, S., Hashemi, A., Vikalo, H. — ICASSP</div>
+      </div>
+      <span class="pub-toggle"></span>
+    </summary>
+    <div class="pub-body">
+      <p class="pub-abstract">We propose MAP-AOLS, an algorithm that leverages statistical information about the sensing matrix and signal to greedily reconstruct sparse binary signals from compressed measurements — in contrast to conventional greedy algorithms, such as OLS and OMP, that reconstruct without using any knowledge of the underlying statistical distributions.</p>
+      <div class="pub-links">
+        <a href="https://ieeexplore.ieee.org/abstract/document/8683151/" target="_blank" rel="noopener">Paper</a>
+      </div>
+    </div>
+  </details>
+</section>
+
+<section id="skills">
+  <p class="eyebrow">Skills</p>
+  <div class="tag-group">
+    <div class="tag-label">Languages &amp; Tools</div>
+    <div class="tags">
+      <span class="tag">Python</span>
+      <span class="tag">Rust</span>
+      <span class="tag">C++</span>
+      <span class="tag">MATLAB</span>
+      <span class="tag">Bash</span>
+      <span class="tag">PyTorch</span>
+      <span class="tag">TensorFlow</span>
+      <span class="tag">Transformers / LLMs</span>
+      <span class="tag">Samtools</span>
+      <span class="tag">Docker</span>
+      <span class="tag">Cwltool</span>
+    </div>
+  </div>
+  <div class="tag-group">
+    <div class="tag-label">Domains</div>
+    <div class="tags">
+      <span class="tag">Biological Sequence Modeling</span>
+      <span class="tag">Representation Learning</span>
+      <span class="tag">Self-Supervised Learning</span>
+      <span class="tag">Bayesian Inference</span>
+      <span class="tag">Computational Biology</span>
+      <span class="tag">Genomics</span>
+    </div>
+  </div>
+</section>
+
+<section id="education">
+  <p class="eyebrow">Education</p>
+
+  <div class="degree">
+    <div class="degree-school">The University of Texas at Austin</div>
+    <div class="degree-name">PhD, Electrical and Computer Engineering</div>
+    <div class="degree-meta">Advisor: <a href="http://users.ece.utexas.edu/~hvikalo/" target="_blank" rel="noopener">Prof. Haris Vikalo</a></div>
+    <ul class="awards">
+      <li>Graduate School Fellow — four-year fellowship, UT Austin Graduate School</li>
+    </ul>
+  </div>
+
+  <div class="degree">
+    <div class="degree-school">The University of Texas at Austin</div>
+    <div class="degree-name">MS, Electrical and Computer Engineering</div>
+    <div class="degree-meta">Advisor: <a href="http://users.ece.utexas.edu/~hvikalo/" target="_blank" rel="noopener">Prof. Haris Vikalo</a></div>
+  </div>
+
+  <div class="degree">
+    <div class="degree-school">Indian Institute of Technology Bombay</div>
+    <div class="degree-name">B.Tech, Electrical Engineering (Minor in Computer Science)</div>
+    <div class="degree-meta">Advisor: <a href="https://www.ee.iitb.ac.in/wiki/faculty/prao" target="_blank" rel="noopener">Prof. Preeti Rao</a></div>
+    <ul class="awards">
+      <li>Institute Silver Medallist — top-performing graduate in department</li>
+      <li>Prof. K.C. Mukherjee Award — best senior thesis</li>
+      <li>Urvish Medh Memorial Prize — top academic performance</li>
+    </ul>
+  </div>
+</section>
+
+<footer id="contact">
+  Shorya Consul · San Diego, CA<br>
+  <a href="mailto:shoryaconsul@utexas.edu">shoryaconsul@utexas.edu</a> ·
+  <a href="https://github.com/shoryaconsul" target="_blank" rel="noopener">GitHub</a> ·
+  <a href="https://www.linkedin.com/in/shorya-consul-5172a5a1/" target="_blank" rel="noopener">LinkedIn</a> ·
+  <a href="https://scholar.google.com/citations?user=LHjoupgAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
