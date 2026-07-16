@@ -183,11 +183,12 @@ ul.bullets strong { font-weight: 600; }
 }
 
 /* Research */
-.research-note {
+.section-note {
   font-size: 0.85rem;
   margin-top: -8px;
   margin-bottom: 22px;
 }
+.section-note a { color: var(--accent); }
 details.pub {
   border-top: 1px solid var(--line);
   padding: 18px 0;
