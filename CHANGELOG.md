@@ -2,6 +2,13 @@
 
 All notable changes to this site are documented here.
 
+## 2026-07-15 - Experience section trimmed to highlights
+
+Replaced the resume-mirroring bullet lists in Experience with 2-3 sentence
+narrative highlights per role, since full metrics already live in the
+downloadable resume. Added a "full resume" link under the Experience
+heading.
+
 ## 2026-07-15 - Site Redesign 2026
 
 Rebuilt the site from the ground up as a hand-built, single-page static site
